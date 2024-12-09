@@ -4,10 +4,14 @@
     text-decoration: 0;
     box-sizing: border-box;
 }
+/* HEADER************************************************************* */
 header{
     background-color: black;
     padding: 1%;
+    /* display: flex;
+    justify-content: space-between; */
 }
+/* TITLE***************************************************************** */
 #title{
 background-color: rgb(251, 251, 251);
 padding: 10%;
@@ -15,6 +19,7 @@ padding: 10%;
 .title img{
     width: 100%;
 }
+/* DESCRIPTION*************************************************************** */
 .descri{
     margin: 30px;
     display: flex;
@@ -32,6 +37,7 @@ background-color: rgb(253, 252, 249);
 /* padding-bottom: 20%; */
 border: 1px solid black;
 }
+/* FOOTER************************************************************************** */
 footer{
     padding: 7%;
     background-color: grey;

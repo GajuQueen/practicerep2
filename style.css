@@ -101,13 +101,14 @@ font-weight: 700;
 }
 .section1 h5 span{
     color: grey;
+    margin-left: 5px;
 }
 .section1 img{
     width: 100%;
     padding: 10px 0px;
 }
 .section1 p{
-    margin: 20px 0px;
+    margin: 1px 0px;
 }
 .buttons a{
 color: black;
@@ -160,9 +161,7 @@ color: black;
 .left-side {
     width: 40%;
     background-color: rgb(253, 252, 249);
-    
 }
-
 /* FOOTER************************************************************************** */
 footer {
     padding: 7%;

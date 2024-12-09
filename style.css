@@ -51,6 +51,22 @@ body {
 .title img {
     width: 100%;
 }
+.name{
+    width:100%;
+    background-image: url('./Assets/jane.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid red;
+    padding:400px 1px;
+    color:white;
+}
+.jane{
+    margin: 0 30px;
+    width: 40%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+}
 
 /* DESCRIPTION*************************************************************** */
 .descri {

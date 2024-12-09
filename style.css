@@ -56,18 +56,29 @@ body {
     background-image: url('./Assets/jane.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid red;
-    padding:400px 1px;
+    /* border: 1px solid red; */
+    padding:300px 1px;
     color:white;
 }
 .jane{
-    margin: 0 30px;
-    width: 40%;
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
+    margin: 30px;
+    /* width: 40%; */
+    /* border: 1px solid green; */
 }
-
+.jane span{
+font-size: 65px;
+font-weight: 700;
+}
+.jane h3{
+    font-size: 30px;
+    /* font-weight: 400; */
+}
+.jane button{
+    background-color: rgba(179, 175, 175, 0.5);
+    padding: 15px;
+    border: none;
+    width: 10%;
+}
 /* DESCRIPTION*************************************************************** */
 .descri {
     margin: 30px;

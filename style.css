@@ -36,17 +36,17 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-/* }
+}
 
 #title h1 {
     /* border: 2px solid blue; */
-    /* font-size: 45px; */
-/* } */
-/* #title span{
+    font-size: 45px;
+}
+#title span{
     background-color: black;
     color: aliceblue;
     padding: 5px;
-} */ */
+}
 
 .title img {
     width: 100%;

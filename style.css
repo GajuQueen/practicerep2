@@ -6,7 +6,10 @@
     text-decoration: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #EEEEEE;
+    font-family: "oswald";
+}
 /* HEADER************************************************************* */
 header {
     background-color: black;
@@ -14,11 +17,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
-body {
-    font-family: "oswald";
-}
-
 .icons a {
     color: beige;
     padding-right: 20px;
@@ -83,21 +81,20 @@ font-weight: 700;
 .descri {
     margin: 30px;
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .right-side {
-    width: 65%;
+    width: 85%;
     background-color: rgb(255, 255, 255);
     padding-bottom: 100%;
-    border: 1px solid black;
+    
 }
 
 .left-side {
     width: 40%;
     background-color: rgb(253, 252, 249);
-    /* padding-bottom: 20%; */
-    border: 1px solid black;
+   
 }
 
 /* FOOTER************************************************************************** */

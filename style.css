@@ -54,7 +54,6 @@ header {
     background-image: url('./Assets/jane.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* border: 1px solid red; */
     padding:300px 1px;
     color:white;
 }
@@ -117,6 +116,7 @@ color: black;
     display: flex;
     justify-content: space-between;
    margin-bottom: 30px;
+   margin-left: 20px;
 }
 .buttons button{
     padding: 10px;
@@ -128,6 +128,7 @@ color: black;
 .buttons .replies{
     background-color: black;
     color: #EEEEEE;
+    margin-right: 30px;
 }
 .buttons .replies span{
     background-color: #ffffff;
@@ -161,6 +162,13 @@ color: black;
 .left-side {
     width: 40%;
     background-color: rgb(253, 252, 249);
+}
+.sect1 img{
+   width: 100%;
+}
+.sect1, h4 p{
+    background-color: black;
+    color: #ffffff;
 }
 /* FOOTER************************************************************************** */
 footer {

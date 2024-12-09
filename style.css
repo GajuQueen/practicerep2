@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Karma:wght@300;400;500;600;700&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Karma:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -82,15 +82,30 @@ font-weight: 700;
     margin: 30px;
     display: flex;
     gap: 40px;
+    font-family: "open sans";
 }
-
+/* RIGHT SIDE******************************************************************** */
 .right-side {
     width: 85%;
     background-color: rgb(255, 255, 255);
     padding-bottom: 100%;
-    
+    padding: 25px;
 }
-
+.section1 h4, .section1 h5{
+    display: flex;
+    justify-content: center;
+    font-family: "oswald";
+    font-weight: 400;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+.section1 h5 span{
+    color: grey;
+}
+.section1 img{
+    width: 100%;
+    padding: 10px 0px;
+}
 .left-side {
     width: 40%;
     background-color: rgb(253, 252, 249);

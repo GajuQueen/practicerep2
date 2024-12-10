@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: 0;
+    text-decoration: none;
     box-sizing: border-box;
 }
 body{
@@ -80,15 +80,19 @@ font-weight: 700;
 .descri {
     margin: 30px;
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     font-family: "open sans";
 }
 /* RIGHT SIDE******************************************************************** */
 .right-side {
-    width: 85%;
-    background-color: rgb(255, 255, 255);
+    width: 70%;
+    background-color: #EEEEEE;
     padding-bottom: 100%;
     padding: 25px;
+}
+.section1{
+    margin-bottom: 30px;
+    background-color: #ffffff;
 }
 .section1 h4, .section1 h5{
     display: flex;
@@ -158,18 +162,47 @@ color: black;
     margin-top: 50px;
     font-size: 15px;
 }
+.sect1 img{
+    width: 100%;
+ }
+ .sect1, h4 p{
+     background-color: black;
+     color: #ffffff;
+ }
 /* LEFT SIDE*************************************************************************** */
 .left-side {
-    width: 40%;
-    background-color: rgb(253, 252, 249);
+    width: 30%;
+    margin-top: 25px;
+}
+.sect1{
+    position: relative;
+}
+.sect1 h4, .sect2 h4, .sect4 h4, .sect5 h4{
+background-color: rgb(1, 1, 1);
+padding: 20px;
+font-family: "oswald";
+color: #ffffff;
 }
 .sect1 img{
-   width: 100%;
+    width: 20%;
+    padding: 10px;
 }
-.sect1, h4 p{
-    background-color: black;
-    color: #ffffff;
+.sect1 ul{
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
 }
+.sect1 li{
+    border-bottom: 1px solid rgb(215, 210, 210);
+    
+}
+.sect1 span{
+position: absolute;
+margin-top: 15px;
+font-size: 15px;
+margin-left: 10px;
+}
+
 /* FOOTER************************************************************************** */
 footer {
     padding: 7%;

@@ -256,8 +256,29 @@ margin: 15px;
 }
 .sect5 p{
     font-family: "open sans", "sans-serif";
+    width: 105%;
 }
-
+.sect5  input, .sect5 button{
+display: flex;
+gap: 5px;
+margin-left: 20px;
+}
+.sect5 input{
+    padding: 8px;
+    width: 320px;
+    border-radius: 0px;
+    border: 1px solid #b9b3b3;
+}
+.sect5 button{
+    margin-top: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: red;
+    color: #EEEEEE;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
 /* FOOTER************************************************************************** */
 footer {
     padding: 7%;

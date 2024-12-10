@@ -205,14 +205,38 @@ margin-left: 10px;
 .sect22{
     border: 1px solid black;
     /* padding-bottom: 10%; */
-    background-color: #EEEEEE;
+    background-color: #ffffff;
 }
 #sect2{
 padding: 80px;
-background-color: #b4b1b1;
+background-color: #EEEEEE;
 margin: 15px;
 }
-
+.tags{
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.tags span{
+    font-family: "open sans", "sans-serif";
+    background-color: #EEEEEE;
+    padding: 2px 6px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.sect4{
+    background-color: #ffffff;
+}
+.inspiration img{
+    width: 43%;
+    margin: 10px;
+    
+}
+.sect5 a{
+    color: black;
+}
 /* FOOTER************************************************************************** */
 footer {
     padding: 7%;

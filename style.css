@@ -177,7 +177,7 @@ color: black;
 .sect1{
     position: relative;
 }
-.sect1 h4, .sect2 h4, .sect4 h4, .sect5 h4{
+.sect1 h4, .sect2 h4, .sect3 h4, .sect4 h4, .sect5 h4{
 background-color: rgb(1, 1, 1);
 padding: 20px;
 font-family: "oswald";
@@ -194,13 +194,23 @@ color: #ffffff;
 }
 .sect1 li{
     border-bottom: 1px solid rgb(215, 210, 210);
-    
+    text-decoration: none;
 }
 .sect1 span{
 position: absolute;
 margin-top: 15px;
 font-size: 15px;
 margin-left: 10px;
+}
+.sect22{
+    border: 1px solid black;
+    /* padding-bottom: 10%; */
+    background-color: #EEEEEE;
+}
+#sect2{
+padding: 80px;
+background-color: #b4b1b1;
+margin: 15px;
 }
 
 /* FOOTER************************************************************************** */

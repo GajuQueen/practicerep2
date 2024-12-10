@@ -78,7 +78,7 @@ font-weight: 700;
 }
 /* DESCRIPTION*************************************************************** */
 .descri {
-    margin: 30px;
+    margin: 15px;
     display: flex;
     /* gap: 40px; */
     font-family: "open sans";
@@ -93,6 +93,7 @@ font-weight: 700;
 .section1{
     margin-bottom: 30px;
     background-color: #ffffff;
+    padding: 20px;
 }
 .section1 h4, .section1 h5{
     display: flex;
@@ -161,6 +162,9 @@ color: black;
     margin-left: -218px;
     margin-top: 50px;
     font-size: 15px;
+}
+.sect1 li{
+    list-style: none;
 }
 .sect1 img{
     width: 100%;
@@ -243,7 +247,7 @@ margin: 15px;
 }
 .inspiration img{
     width: 43%;
-    margin: 10px;
+    margin: 11px;
     
 }
 .sect5 a{
@@ -281,6 +285,29 @@ margin-left: 20px;
 }
 /* FOOTER************************************************************************** */
 footer {
-    padding: 7%;
+    padding: 3%;
     background-color: grey;
+}
+.footer{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+footer ul{
+    background-color: black;
+    color: #EEEEEE;
+    width: 12%;
+    padding: 10px;
+    margin: -30px;
+    list-style: none;
+}
+footer i{
+    color: #EEEEEE;
+    padding: 10px;
+}
+footer p{
+    margin: 25px;
+    margin-left: -50px;
+}
+footer p a{
+    color: #EEEEEE;
 }

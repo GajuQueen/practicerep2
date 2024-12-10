@@ -173,6 +173,18 @@ color: black;
 .left-side {
     width: 30%;
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sect11 h4, .sect11 p{
+    background-color: black;
+    color: #EEEEEE;
+}
+.sect11 img{
+    width: 100%;
+    display: flex;
+    gap: none;
 }
 .sect1{
     position: relative;
@@ -203,7 +215,7 @@ font-size: 15px;
 margin-left: 10px;
 }
 .sect22{
-    border: 1px solid black;
+    border: 1px solid rgb(254, 251, 251);
     /* padding-bottom: 10%; */
     background-color: #ffffff;
 }
@@ -236,7 +248,16 @@ margin: 15px;
 }
 .sect5 a{
     color: black;
+    margin-left: 10px;  
 }
+.sect5{
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.sect5 p{
+    font-family: "open sans", "sans-serif";
+}
+
 /* FOOTER************************************************************************** */
 footer {
     padding: 7%;
